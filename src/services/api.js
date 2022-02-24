@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://api.pharma.cryptoguy.net/api/v1",
+    baseURL: "https://jsonplaceholder.typicode.com/",
 });
 
 export default api;
